@@ -1,0 +1,10 @@
+.nachspeisen {
+    height: 100vh;
+    background: url("nachspeise.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 5px;
+
+}

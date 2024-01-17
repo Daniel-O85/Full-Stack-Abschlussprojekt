@@ -1,0 +1,89 @@
+header {
+    padding-top: -5px;
+    padding-bottom: 0.1px;
+    background-color: black;
+}
+
+header h3 {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
+    text-shadow: -15px 5px 20px #ced0d3;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F9f1cc;
+    text-shadow: 1px 1px 0px #FFB650,
+        2px 2px 0px #FFD662,
+        3px 3px 0px #FF80BF,
+        4px 4px 0px #EF5097,
+        5px 5px 0px #6868AC,
+        6px 6px 0px #90B1E0;
+}
+
+
+header img {
+    width: 64px;
+    animation: myAnim 10s linear 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+
+}
+
+header ul a {
+    color: rgb(204, 204, 204);
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+header ul a:hover {
+    color: beige;
+    text-shadow: 2px 1px 2px rgb(139, 139, 139);
+    font-size: 21px;
+    transition: 0.5s;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+
+    p {
+        margin: 50px;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+
+        a {
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            text-decoration-line: none;
+
+            &:hover {
+                font-size: 105%;
+            }
+        }
+
+    }
+}

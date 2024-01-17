@@ -1,0 +1,409 @@
+@media (min-width: 2560px) {
+    .neuesRezept {
+        height: 100vh;
+        background: url("neues-rezept.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+
+    .RezeptInfo {
+        position: fixed;
+        left: 22%;
+        top: 28%;
+        height: 580px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        input,
+        button,
+        select {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+        }
+
+        button:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        option {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .RezeptTexte {
+        position: fixed;
+        left: 47%;
+        top: 26%;
+
+        h3 {
+            font-weight: lighter;
+        }
+
+        textarea {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            width: 500px;
+            height: 15vh;
+            resize: none;
+            overflow: auto;
+            font-family: cursive;
+            font-size: 22px;
+            font-weight: lighter;
+
+            &:focus {
+                outline: none;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &:hover {
+                cursor: text;
+            }
+        }
+    }
+
+    .btn-hinzu {
+        position: fixed;
+        bottom: 27%;
+        right: 26%;
+        background: none;
+        border: none;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1920px) {
+    .neuesRezept {
+        height: 100vh;
+        background: url("neues-rezept.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+
+    .RezeptInfo {
+        position: fixed;
+        left: 18%;
+        top: 10%;
+        height: 450px;
+        overflow: auto;
+        scale: 0.65;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        input,
+        button,
+        select {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+        }
+
+        button:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        option {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .RezeptTexte {
+        position: fixed;
+        left: 42%;
+        top: 10%;
+        scale: 0.65;
+
+        h3 {
+            font-weight: lighter;
+        }
+
+        textarea {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            width: 500px;
+            height: 25vh;
+            resize: none;
+            overflow: auto;
+            font-family: cursive;
+            font-size: 22px;
+            font-weight: lighter;
+
+
+            &:focus {
+                outline: none;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &:hover {
+                cursor: text;
+            }
+        }
+    }
+
+    .btn-hinzu {
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+        background: none;
+        border: none;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .neuesRezept {
+        height: 100vh;
+        background: url("neues-rezept.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        scale: 1.1;
+    }
+
+    .RezeptInfo {
+
+        left: 13%;
+        top: 5%;
+        height: 450px;
+        overflow: auto;
+        scale: 0.5;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        input,
+        button,
+        select {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid black;
+
+
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+        }
+
+        button:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        option {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .RezeptTexte {
+        position: fixed;
+        left: 34%;
+        top: 7%;
+        scale: 0.5;
+
+        h3 {
+            font-weight: lighter;
+        }
+
+        textarea {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            width: 500px;
+            height: 27vh;
+            resize: none;
+            overflow: auto;
+            font-family: cursive;
+            font-size: 22px;
+            font-weight: lighter;
+
+
+            &:focus {
+                outline: none;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &:hover {
+                cursor: text;
+            }
+        }
+    }
+
+    .btn-hinzu {
+        position: fixed;
+        bottom: -12%;
+        right: 3%;
+        background: none;
+        border: none;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+    }
+
+    header {
+        padding-top: 0.1px;
+        padding-bottom: 15px;
+        background-color: black;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .neuesRezept {
+        height: 100vh;
+        background: url("neues-rezept-mobil.jpg");
+        background-size: 200% 90%;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        padding: 0%;
+
+    }
+
+    .RezeptInfo {
+        position: fixed;
+        left: 0%;
+        top: 10%;
+        height: 380px;
+        overflow: auto;
+        scale: 0.6;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        input,
+        button,
+        select {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid black;
+
+
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+        }
+
+        button:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+
+        option {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .RezeptTexte {
+        position: fixed;
+        left: -10%;
+        top: 30%;
+        scale: 0.6;
+
+        h3 {
+            font-weight: lighter;
+        }
+
+        textarea {
+            margin: 10px 0px;
+            background: none;
+            border: none;
+            width: 500px;
+            height: 25vh;
+            resize: none;
+            overflow: auto;
+            font-family: cursive;
+            font-size: 22px;
+            font-weight: lighter;
+
+
+            &:focus {
+                outline: none;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &:hover {
+                cursor: text;
+            }
+        }
+    }
+
+    .btn-hinzu {
+        position: fixed;
+        bottom: 2%;
+        right: -1%;
+        background: none;
+        border: none;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+        }
+    }
+
+}

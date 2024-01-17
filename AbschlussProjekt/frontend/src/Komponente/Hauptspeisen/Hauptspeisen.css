@@ -1,0 +1,9 @@
+.hauptspeisen {
+    height: 100vh;
+    background: url("hauptspeise.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 5px;
+}

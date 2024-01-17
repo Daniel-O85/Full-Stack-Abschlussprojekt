@@ -1,0 +1,227 @@
+/********************************
+*** Background der Hauptseite ***
+*********************************/
+.vorspeisen {
+    height: 100vh;
+    background: url("vorspeise.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+.bearbeiten {
+
+
+    textarea {
+        min-height: 200px;
+    }
+}
+
+/*****************
+*** suchleiste ***
+*******************/
+.vorspeisen-anzeige {
+    position: absolute;
+    border: solid black 2px;
+    width: fit-content;
+    padding: 10px 20px 10px 0px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.365);
+    color: white;
+    border-radius: 5px;
+    max-height: 80vh;
+
+    img {
+        width: 128px;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    input {
+        margin-left: 15px;
+        background-color: black;
+        border: none;
+        padding: 2px;
+        color: white;
+        padding: 3px 6px;
+        border-radius: 5px;
+
+        &::placeholder {
+            color: white;
+            font-family: cursive;
+        }
+
+    }
+
+    button {
+        background-color: rgba(0, 0, 0, 0.685);
+        color: white;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 5px;
+        font-family: cursive;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+
+        }
+    }
+}
+
+/*********************
+*** Rezept Anzeige ***
+**********************/
+.rezeptAnzeigen {
+    scale: 1.1;
+    border-radius: 10px;
+    width: fit-content;
+    max-height: 50%;
+    padding: 5%;
+    margin: 10% 30%;
+    background-color: rgba(0, 0, 0, 0.772);
+    color: white;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    button {
+        background-color: rgba(0, 0, 0, 0.685);
+        color: white;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 5px;
+        font-family: cursive;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+
+        }
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    img {
+        width: 264px;
+        border-radius: 5px;
+    }
+}
+
+.rezeptAusblenden {
+    display: none;
+}
+
+/*********************
+*** Alle Rezepte ***
+**********************/
+.alleRezepte {
+    width: 50%;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    max-height: 70vh;
+    overflow: auto;
+
+    button {
+        background-color: rgba(0, 0, 0, 0.685);
+        color: white;
+        border: none;
+        padding: 3px 6px;
+        border-radius: 5px;
+        font-family: cursive;
+
+        &:hover {
+            scale: 1.1;
+            cursor: pointer;
+
+        }
+    }
+
+    img {
+        width: 264px;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/******************************
+*** Alle Rezepte ausblenden ***
+*******************************/
+.alleRezepteVersteckt {
+    display: none;
+}
+
+.bearbeiten {
+    textarea {
+        margin: 10px 0px;
+        background: none;
+        border: none;
+        resize: none;
+        overflow: auto;
+        font-family: cursive;
+        font-size: 22px;
+        font-weight: lighter;
+        color: white;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &:hover {
+            cursor: text;
+        }
+    }
+
+    input,
+    button,
+    select {
+        margin: 10px 0px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid black;
+        color: white;
+    }
+
+    input:focus,
+    select:focus {
+        outline: none;
+    }
+
+    option {
+        background-color: black;
+    }
+}
+
+
+
+
+/************************************
+*** Löschen Button im Normalmodus ***
+*************************************/
+.none {
+    display: none;
+}
